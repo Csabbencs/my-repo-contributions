@@ -1,0 +1,9 @@
+7289031b	Your GitName	your_git_email@host.org	Fri Jun 24 13:12:07 2022 +0200	2022-06-24	Worst controller
+1	1	src/controllers/my-worst-controller.ts
+0	0	src/controllers/my-worst-controller-zero.ts
+2	7	src/services/my-worst-service.ts
+6	2	package.json
+66	22	package-lock.json
+
+de31f07e	Your GitName	your_git_email@host.org	Thu Jun 23 14:54:19 2022 +0200	2022-06-23	Best Controller
+4	0	src/controllers/my-best-controller.ts

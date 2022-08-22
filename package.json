@@ -1,0 +1,37 @@
+{
+  "name": "my-repo-contributions",
+  "version": "1.0.0",
+  "description": "Share your contribution to one or more, public or private repository in a way that is easy to understand.",
+  "scripts": {
+    "start": "node index.js",
+    "merge": "node merge.js",
+    "test": "jest"
+  },
+  "type": "module",
+  "keywords": [
+    "contribution",
+    "contribution-graph",
+    "contributions",
+    "repo statistics",    
+    "repo contributions",    
+    "repository contributions",
+    "private repository",
+    "multiple repositories",
+    "merge repository contributions",
+    "work",
+    "work done"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/csabbencs/my-repo-contributions",
+  "bugs": {
+    "url": "https://github.com/csabbencs/my-repo-contributions/issues"
+  },
+  "author": "Csaba Balogh (https://www.linkedin.com/in/csababaloghcse/)",
+  "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "@babel/node": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "babel-jest": "^28.1.3",
+    "jest": "^28.1.3"
+  }
+}
