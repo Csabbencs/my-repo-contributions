@@ -1,6 +1,6 @@
 {
   "name": "my-repo-contributions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Share your contribution to one or more, public or private repository in a way that is easy to understand.",
   "scripts": {
     "start": "node index.js",

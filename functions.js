@@ -108,8 +108,18 @@ export async function processLogLineByLine(config) {
             (!config.includeByRegex.length ||
               config.includeByRegex.map((x) => col[2].match(x)).filter((x) => x !== null).length)
           ) {
-            added += parseInt(col[0]);
-            removed += parseInt(col[1]);
+            const parsedValue = parseInt(col[0]);
+            if (!isNaN(parsedValue)) {
+                added += parsedValue;
+            } else {
+                console.warn(`WARNING: Invalid value found @ "added lines": ${col[0]}`);
+            }
+            const parsedValueRemoved = parseInt(col[1]);
+            if (!isNaN(parsedValueRemoved)) {
+                removed += parsedValueRemoved;
+            } else {
+                console.warn(`WARNING: Invalid value found @ "removed lines": ${col[1]}`);
+            }
             changed = added + removed;
             noOfFileChanges++;
           }
